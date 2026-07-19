@@ -137,29 +137,30 @@
       </section>  
 
       <!--analytics-->
-      <section class="analytics">
-        <div class="section-header">
-          <h2>Analytics</h2>
+    <section class="analytics">
+
+    <div class="section-header">
+
+        <div>
+            <h2>Financial Overview</h2>
+            <p>Track your income and expenses</p>
         </div>
 
-        <div class="chart-card">
-          <canvas id="expenseChart"></canvas>
-        </div>
-      </section>
-
-      <!--toolbar-->
-      <section class="toolbar">
-        <input type="text" placeholder="Search transaction...">
-
-        <select>
-          <option>All Categories</option>
-        </select>
-        
-        <select>
-          <option>All Types</option>
+        <select class="chart-filter">
+            <option>This Month</option>
+            <option>Last Month</option>
+            <option>This Year</option>
         </select>
 
-      </section>
+    </div>
+
+    <div class="chart-card">
+
+        <canvas id="expenseChart"></canvas>
+
+    </div>
+
+</section>
 
        <!-- Transaction -->
 
