@@ -317,3 +317,61 @@ body {
     gap:20px;
 
 }
+
+.transaction-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.transaction-left{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.transaction-icon{
+    width: 55px;
+    height: 55px;
+
+    border-radius: 50%;
+
+    background: #F1F5F9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--primary);
+
+    font-size: 22px;
+}
+
+.transaction-info h4{
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.transaction-info p{
+    color:#64748B;
+    font-size:14px;
+    margin-bottom:4px;
+}
+
+.transaction-info small{
+    color:#94A3B8;
+}
+
+.transaction-right{
+    text-align:right;
+}
+
+.expense{
+    color: var(--expense);
+}
+
+.income{
+    color: var(--income);
+}
