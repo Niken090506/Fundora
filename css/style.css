@@ -375,3 +375,37 @@ body {
 .income{
     color: var(--income);
 }
+
+.transaction-tags{
+    display:flex;
+    gap:8px;
+    margin:8px 0;
+}
+
+.tag{
+
+    padding:5px 12px;
+
+    border-radius:999px;
+
+    font-size:12px;
+
+    font-weight:600;
+
+}
+
+.food{
+
+    background:#FEF3C7;
+
+    color:#B45309;
+
+}
+
+.expense-tag{
+
+    background:#FEE2E2;
+
+    color:#DC2626;
+
+}
